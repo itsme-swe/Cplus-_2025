@@ -8,7 +8,7 @@ int main(){
   int y = 7;
 
   int z = x & y;
-  cout<<z;
+  cout<<z;  // Value is 3;
 
   return 0;
 }
