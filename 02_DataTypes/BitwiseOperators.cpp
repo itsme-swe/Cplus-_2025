@@ -5,9 +5,9 @@ int main(){
   
   int x = 11;
   
-  int y = 7;
+  int y = 9;
 
-  int z = x & y;
+  int z = x | y;
   cout<<z;  // Value is 3;
 
   return 0;

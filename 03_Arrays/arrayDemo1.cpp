@@ -7,6 +7,8 @@ int main(){
 
   int n = sizeof(Arr);
 
+  cout << n;
+
   cout<<n << "\n";
 
   for(int i = 0; i < 5; i++) {
