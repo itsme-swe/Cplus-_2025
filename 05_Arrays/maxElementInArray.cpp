@@ -1,15 +1,18 @@
 #include<bits/stdc++.h>
+
 using namespace std; 
 
 int main(){
   
-  int arr[] = {10, 5, 90, 81, 25};
+  array<int, 5> arr = {10, 5, 90, 81, 25};
 
   int maxValue = INT_MIN;
 
-  int minValue = INT32_MAX;
+  int minValue = INT_MAX;
 
-  int n = sizeof(arr) / sizeof(arr[0]);
+  int n = arr.size();
+
+  cout << "The size of array is: " << n << "\n";
 
   for (int i = 0; i < n; i++ ) {
     if (arr[i] > maxValue) {
