@@ -7,14 +7,14 @@ int main(){
   
   int n = sizeof(arr) / sizeof(arr[0]);
 
-  int* P = arr;
+  int* p = arr;
 
-  cout << *P << endl; // Pointing first element of an array
+  cout << *p << endl; // Pointing first element of an array
 
   cout << endl;
 
   for (int i = 0; i < n; i++) {
-    cout << i << ": " << *(P + i) << endl;
+    cout << i << ": " << *(p + i) << endl;
   }
 
   return 0;
