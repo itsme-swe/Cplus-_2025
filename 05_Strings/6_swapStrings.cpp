@@ -1,8 +1,9 @@
-#include <iostream> 
+#include <iostream>
 
-using namespace std; 
+using namespace std;
 
-int main(){
+int main()
+{
 
   string s1 = "Hello";
 

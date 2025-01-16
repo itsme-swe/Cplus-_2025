@@ -1,24 +1,26 @@
-#include <iostream> 
+#include <iostream>
 
-using namespace std; 
+using namespace std;
 
-void swap(int &a, int &b) {
-  int temp = a; 
+void swap(int &a, int &b)
+{
+  int temp = a;
 
   a = b;
-   
-  b = temp;
 
+  b = temp;
 }
 
-int main(){
+int main()
+{
 
-  int a = 10; 
+  int a = 10;
   int b = 20;
 
-  swap(a,b);
+  swap(a, b);
 
-  cout << "a:" << a << "\n" << "b:" << b;
+  cout << "a:" << a << "\n"
+       << "b:" << b;
 
   return 0;
 }

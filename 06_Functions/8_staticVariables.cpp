@@ -1,15 +1,17 @@
-#include <iostream> 
+#include <iostream>
 
-using namespace std; 
+using namespace std;
 
-void fun() {
+void fun()
+{
 
   static int s = 10;
   s++;
   cout << s << endl;
 }
 
-int main(){
+int main()
+{
 
   fun();
   fun();

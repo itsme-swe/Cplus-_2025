@@ -1,17 +1,19 @@
-#include <iostream> 
+#include <iostream>
 
-using namespace std; 
+using namespace std;
 
-int main(){
+int main()
+{
 
   string str = "HELlO";
 
-  for(int i = 0; str[i] != '\0'; i++) {
+  for (int i = 0; str[i] != '\0'; i++)
+  {
 
-     if(str[i] >= 65 && str[i] <= 90) {
+    if (str[i] >= 65 && str[i] <= 90)
+    {
       str[i] += 32;
-     }
-
+    }
   }
 
   cout << str;

@@ -1,15 +1,16 @@
-#include<bits/stdc++.h>
-using namespace std; 
+#include <bits/stdc++.h>
+using namespace std;
 
-int main(){
-  
+int main()
+{
+
   char ch = 'H';
 
   char arr[] = "Hello\0World";
 
   cout << ch << "\n";
 
-  cout << arr << "\n";  // o/p: Hello
+  cout << arr << "\n"; // o/p: Hello
 
   return 0;
 }

@@ -1,16 +1,18 @@
-#include <iostream> 
+#include <iostream>
 
-using namespace std; 
+using namespace std;
 
-int main(){
+int main()
+{
 
   string str = "Welcome to jungle";
 
   int count = 0;
 
-  string:: iterator it;
+  string::iterator it;
 
-  for(it=str.begin(); it != str.end(); it++) {
+  for (it = str.begin(); it != str.end(); it++)
+  {
     count++;
   }
 

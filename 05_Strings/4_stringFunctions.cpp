@@ -1,8 +1,9 @@
-#include<bits/stdc++.h>
-using namespace std; 
+#include <bits/stdc++.h>
+using namespace std;
 
-int main(){
-  
+int main()
+{
+
   char s[50] = "I am Harsh";
 
   cout << strlen(s) << " \n"; // o/p: 10 -- "strlen" is the function to find the length of string
@@ -14,8 +15,6 @@ int main(){
   string s3 = s1 + " " + s2;
 
   cout << s3;
-
-
 
   return 0;
 }

@@ -1,12 +1,15 @@
-#include<bits/stdc++.h>
-using namespace std; 
+#include <bits/stdc++.h>
+using namespace std;
 
-int main(){
-  
-  int arr[2][3] = {{2,4,6}, {1,3,5}};
+int main()
+{
 
-  for (auto& row : arr) {
-    for (auto& ele : row) {
+  int arr[2][3] = {{2, 4, 6}, {1, 3, 5}};
+
+  for (auto &row : arr)
+  {
+    for (auto &ele : row)
+    {
       cout << ele << " ";
     }
     cout << endl;
