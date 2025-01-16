@@ -1,8 +1,9 @@
-#include<bits/stdc++.h>
-using namespace std; 
+#include <bits/stdc++.h>
+using namespace std;
 
-int main(){
-  
+int main()
+{
+
   int x = 10;
 
   int y = 20;
@@ -11,9 +12,9 @@ int main(){
 
   P = &x;
 
-  int* ptr = &y;
+  int *ptr = &y;
 
-  cout << "Value present inside x is: " << x << "\n";   // opt ›› 10
+  cout << "Value present inside x is: " << x << "\n"; // opt ›› 10
 
   cout << "Value present inside &x is: " << &x << "\n"; // opt ›› 0x61ff08 address of variable x
 

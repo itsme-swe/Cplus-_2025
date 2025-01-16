@@ -1,9 +1,10 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
-using namespace std; 
+using namespace std;
 
-int main(){
-  
+int main()
+{
+
   array<int, 5> arr = {10, 5, 90, 81, 25};
 
   int maxValue = INT_MIN;
@@ -14,16 +15,20 @@ int main(){
 
   cout << "The size of array is: " << n << "\n";
 
-  for (int i = 0; i < n; i++ ) {
-    if (arr[i] > maxValue) {
+  for (int i = 0; i < n; i++)
+  {
+    if (arr[i] > maxValue)
+    {
       maxValue = arr[i];
     }
   }
 
   cout << endl;
 
-  for(int i = 0; i < n; i++) {
-    if(arr[i] < minValue) {
+  for (int i = 0; i < n; i++)
+  {
+    if (arr[i] < minValue)
+    {
       minValue = arr[i];
     }
   }

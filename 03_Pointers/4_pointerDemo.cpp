@@ -1,12 +1,13 @@
-#include<bits/stdc++.h>
-using namespace std; 
+#include <bits/stdc++.h>
+using namespace std;
 
-int main(){
+int main()
+{
   int x = 10;
 
-  int* y = &x;
+  int *y = &x;
 
-  int* &z = y;
+  int *&z = y;
 
   cout << z;
   return 0;
