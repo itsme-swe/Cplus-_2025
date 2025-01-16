@@ -22,6 +22,11 @@ public:
   {
     return length * breadth;
   }
+
+  int perimeter()
+  {
+    return 2 * (length + breadth);
+  }
 };
 
 int main()
@@ -36,6 +41,8 @@ int main()
   ptr2 = move(ptr);
 
   cout << "Area of ptr2 is " << ptr2->area() << endl; // Area of ptr2 is 50
+
+  cout << "The perimeter of ptr is " << ptr2->perimeter() << endl;
 
   return 0;
 }
